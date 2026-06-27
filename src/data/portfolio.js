@@ -6,7 +6,7 @@ export const personalInfo = {
   email: 'Haseeb.iqbalhamdami@gmail.com',
   phone: '+92 322 0012790',
   whatsapp: '+92 309 2685070',
-  location: 'Lahore, Pakistan',
+  location: '312 W 2nd St Unit #A9277, Casper, WY 82601',
   yearsExperience: '5+',
   availability: 'Open to opportunities',
   resumeUrl: '/resume.pdf',
