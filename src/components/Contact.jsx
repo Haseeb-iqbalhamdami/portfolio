@@ -51,11 +51,30 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className="contact__label">Phone</span>
-                  <a href={`tel:${personalInfo.phone}`} className="contact__value">
+                  <a href={`tel:${personalInfo.phone.replace(/\s/g, '')}`} className="contact__value">
                     {personalInfo.phone}
                   </a>
                 </div>
               </div>
+
+              {personalInfo.whatsapp && (
+                <div className="contact__item">
+                  <div className="contact__icon">
+                    <Phone size={20} />
+                  </div>
+                  <div>
+                    <span className="contact__label">WhatsApp</span>
+                    <a
+                      href={`https://wa.me/${personalInfo.whatsapp.replace(/\D/g, '')}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="contact__value"
+                    >
+                      {personalInfo.whatsapp}
+                    </a>
+                  </div>
+                </div>
+              )}
 
               <div className="contact__item">
                 <div className="contact__icon">

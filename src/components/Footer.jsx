@@ -2,12 +2,13 @@ import { personalInfo } from '../data/portfolio';
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const firstName = personalInfo.name.split(' ')[0];
 
   return (
     <footer className="footer">
       <div className="container footer__inner">
         <div className="footer__brand">
-          <span className="footer__logo">Mubeen<span className="text-gold">.</span></span>
+          <span className="footer__logo">{firstName}<span className="text-gold">.</span></span>
           <p className="footer__tagline">{personalInfo.title}</p>
         </div>
 

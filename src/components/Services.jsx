@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Lightbulb, RefreshCw, Smartphone, Zap } from 'lucide-react';
+import { Code, Lightbulb, RefreshCw, Smartphone, Zap } from 'lucide-react';
 import SectionHeading from './SectionHeading';
 import { services } from '../data/portfolio';
 
@@ -8,6 +8,7 @@ const iconMap = {
   refresh: RefreshCw,
   zap: Zap,
   lightbulb: Lightbulb,
+  code: Code,
 };
 
 export default function Services() {
@@ -17,7 +18,7 @@ export default function Services() {
         <SectionHeading
           label="Services"
           title="What I Offer"
-          subtitle="End-to-end mobile development services tailored to your business goals."
+          subtitle="Full stack development services — from web platforms and APIs to mobile apps and cloud deployments."
         />
 
         <div className="services__grid">

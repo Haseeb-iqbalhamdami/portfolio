@@ -3,6 +3,12 @@ import SectionHeading from './SectionHeading';
 import { aboutContent, personalInfo } from '../data/portfolio';
 
 export default function About() {
+  const initials = personalInfo.name
+    .split(' ')
+    .map((part) => part.charAt(0))
+    .join('')
+    .slice(0, 2);
+
   return (
     <section className="section about" id="about">
       <div className="container">
@@ -22,7 +28,7 @@ export default function About() {
           >
             <div className="about__card">
               <div className="about__avatar">
-                <span>MA</span>
+                <span>{initials}</span>
               </div>
               <div className="about__card-info">
                 <h3>{personalInfo.name}</h3>

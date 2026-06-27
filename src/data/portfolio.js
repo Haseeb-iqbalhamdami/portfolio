@@ -1,148 +1,205 @@
 export const personalInfo = {
-  name: 'Mubeen Ayub',
-  title: 'Senior React Native Developer',
+  name: 'Haseeb Iqbal',
+  title: 'Full Stack Software Engineer',
   tagline:
-    'Building and maintaining cross-platform mobile applications with React Native, Redux, and modern backend integrations.',
-  email: 'mubeenayub1608@gmail.com',
-  phone: '+923099270265',
-  location: 'Sargodha, Punjab, Pakistan',
+    'Designing and deploying scalable web and mobile applications, SaaS platforms, and enterprise backend systems with a focus on performance, security, and maintainability.',
+  email: 'Haseeb.iqbalhamdami@gmail.com',
+  phone: '+92 322 0012790',
+  whatsapp: '+92 309 2685070',
+  location: 'Lahore, Pakistan',
   yearsExperience: '5+',
   availability: 'Open to opportunities',
   resumeUrl: '/resume.pdf',
-  resumeFileName: 'Mubeen_Ayub_Resume.pdf',
+  resumeFileName: 'Haseeb_Iqbal_Resume.pdf',
 };
 
 export const aboutContent = {
-  heading: 'Building mobile products that users love',
+  heading: 'Building scalable products end to end',
   subtitle:
-    'Senior React Native developer focused on scalable apps, clean architecture, and user-centric design.',
+    'Full stack engineer focused on high-performance APIs, cloud-native solutions, and polished user experiences.',
   lead:
-    "I'm Mubeen Ayub, a Senior React Native Developer with 5+ years of experience building high-quality mobile applications across fintech, product, and enterprise domains.",
+    "I'm Haseeb Iqbal, a Full Stack Software Engineer with 5+ years of experience designing, developing, and deploying production-grade web and mobile applications across fintech, SaaS, and enterprise domains.",
   paragraphs: [
-    'I have worked with cross-functional teams to design, develop, and ship production-ready features using React Native, Redux, Axios, Firebase, and Node.js/Express.js backends.',
-    'From LightHouse Development to Omnisoft Technologies, I have delivered responsive, performant apps for Android and iOS while following agile development practices.',
+    'I build high-performance REST APIs, microservices, and cloud-native solutions using Node.js, NestJS, React, Next.js, and Flutter — with strong expertise in AWS, Docker, Kubernetes, and CI/CD pipelines.',
+    'From Cosmemporium and Omnisoft to early mobile roles at Tech Hunter and Bitlogicx, I have shipped cross-platform apps, SaaS dashboards, and client websites used by millions of users worldwide.',
   ],
   highlights: [
-    'Cross-platform iOS & Android development',
-    'Redux state management & REST API integration',
-    'Agile/Scrum collaboration',
-    'Firebase, MongoDB & Git workflows',
+    'Full stack web & mobile development',
+    'REST APIs, microservices & cloud infrastructure',
+    'React, Next.js, NestJS & Flutter',
+    'AWS, Docker, Kubernetes & CI/CD',
   ],
 };
 
 export const socialLinks = [
   { label: 'GitHub', href: 'https://github.com', icon: 'github' },
   { label: 'LinkedIn', href: 'https://linkedin.com', icon: 'linkedin' },
-  { label: 'Email', href: 'mailto:mubeenayub1608@gmail.com', icon: 'email' },
+  { label: 'Email', href: 'mailto:Haseeb.iqbalhamdami@gmail.com', icon: 'email' },
 ];
 
 export const stats = [
   { value: '5+', label: 'Years Experience', icon: 'briefcase' },
-  { value: '4', label: 'Companies', icon: 'building' },
-  { value: '20+', label: 'Apps Built', icon: 'smartphone' },
-  { value: 'BS', label: 'Computer Science', icon: 'graduation' },
+  { value: '6', label: 'Companies', icon: 'building' },
+  { value: '18+', label: 'Projects Shipped', icon: 'smartphone' },
+  { value: 'BSE', label: 'Software Engineering', icon: 'graduation' },
 ];
 
 export const skills = [
   {
-    category: 'Languages & Frameworks',
-    items: ['React Native', 'JavaScript', 'Node.js', 'Express.js', 'Redux', 'Axios'],
+    category: 'Frontend & Mobile',
+    items: [
+      'React.js',
+      'Next.js',
+      'TypeScript',
+      'Flutter',
+      'React Native',
+      'Tailwind CSS',
+      'Shadcn UI',
+    ],
   },
   {
-    category: 'Databases & Tools',
-    items: ['Firebase', 'MongoDB', 'Git', 'GitHub', 'Agile/Scrum'],
+    category: 'Backend & APIs',
+    items: [
+      'Node.js',
+      'NestJS',
+      'Express.js',
+      'REST APIs',
+      'GraphQL',
+      'Microservices',
+      'WebSockets',
+    ],
   },
   {
-    category: 'Platforms',
-    items: ['Android', 'iOS', 'Mobile App Development'],
+    category: 'Databases & Cloud',
+    items: [
+      'PostgreSQL',
+      'MongoDB',
+      'Redis',
+      'Firebase',
+      'AWS',
+      'Lambda',
+      'S3',
+    ],
+  },
+  {
+    category: 'DevOps & Tools',
+    items: [
+      'Docker',
+      'Kubernetes',
+      'Terraform',
+      'GitHub Actions',
+      'Jenkins',
+      'Git',
+      'Jest',
+    ],
   },
 ];
 
 export const experiences = [
   {
-    role: 'React Native Developer',
-    company: 'Omnisoft Technologies',
-    period: 'Nov 2025 — Present',
-    location: 'Lahore, Punjab, Pakistan',
-    description:
-      'Building and maintaining cross-platform mobile applications using React Native for diverse client projects.',
-    highlights: [
-      'Collaborating with design and backend teams to deliver scalable, production-ready mobile solutions.',
-      'Shipping features with Redux, Axios, and modern React Native architecture.',
-    ],
-  },
-  {
-    role: 'React Native Developer',
-    company: 'StreamedInc.',
-    period: 'Aug 2024 — Nov 2025',
-    location: 'Lahore, Punjab, Pakistan',
-    description:
-      'Built and maintained high-quality mobile applications as part of the core product team.',
-    highlights: [
-      'Collaborated with cross-functional teams to design, develop, and ship features on tight deadlines.',
-      'Improved app stability and user experience across Android and iOS releases.',
-    ],
-  },
-  {
-    role: 'React Native Developer',
-    company: 'Shibli Global Network',
-    period: 'Dec 2023 — Jul 2024',
+    role: 'Full Stack Software Developer',
+    company: 'Cosmemporium Limited',
+    period: 'Jan 2025 — Present',
     location: 'Remote',
     description:
-      'Contributed to the development of several high-impact mobile applications across multiple sectors.',
+      'Developing scalable web applications with Next.js, React, NestJS, and Node.js on AWS.',
     highlights: [
-      'Used Redux for state management, Axios for API calls, and Express.js for backend services.',
-      'Worked in agile teams to meet deadlines and deliver user-centric, business-driven solutions.',
+      'Built REST APIs, integrated third-party services, and optimized production databases.',
+      'Implemented CI/CD pipelines, Docker deployments, and microservices architecture.',
     ],
   },
   {
-    role: 'React Native Developer',
-    company: 'LightHouse Development',
-    period: 'Apr 2021 — Nov 2023',
-    location: 'Sargodha, Punjab, Pakistan',
+    role: 'Full Stack Software Developer',
+    company: 'Omnisoft',
+    period: 'Jan 2024 — Dec 2024',
+    location: 'Remote',
     description:
-      'Worked on a diverse range of mobile applications enhancing user experience and functionality across various domains.',
+      'Developed SaaS platforms, backend services, dashboards, and Flutter mobile applications.',
     highlights: [
-      'Utilized Redux, Node.js, Express.js, and third-party libraries to extend app functionality.',
-      'Emphasized responsive design for multiple devices and screen sizes.',
-      'Delivered high-quality apps following agile practices to meet client specifications.',
+      'Designed scalable APIs using NestJS, PostgreSQL, Redis, and AWS.',
+      'Worked on authentication, payment integrations, real-time communication, and cloud infrastructure.',
+    ],
+  },
+  {
+    role: 'Junior Full Stack Developer',
+    company: 'Venre',
+    period: 'Mar 2023 — Dec 2023',
+    location: 'Lahore, Pakistan',
+    description:
+      'Built production-ready web platforms using React, Next.js, Node.js, and PostgreSQL.',
+    highlights: [
+      'Developed backend APIs and integrated third-party services.',
+      'Maintained deployment workflows and production releases.',
+    ],
+  },
+  {
+    role: 'Junior Software Developer',
+    company: 'VisNext',
+    period: 'Jun 2022 — Feb 2023',
+    location: 'Lahore, Pakistan',
+    description:
+      'Developed frontend and backend modules while collaborating with senior developers.',
+    highlights: [
+      'Implemented REST APIs, database operations, and responsive web interfaces.',
+    ],
+  },
+  {
+    role: 'Mobile Application Developer',
+    company: 'Tech Hunter',
+    period: 'Jan 2021 — May 2022',
+    location: 'Lahore, Pakistan',
+    description:
+      'Built Android and iOS applications using Flutter with Firebase and REST APIs.',
+    highlights: [
+      'Integrated push notifications, payment systems, and published production mobile apps.',
+      'Optimized app performance and maintained live applications on app stores.',
+    ],
+  },
+  {
+    role: 'Mobile Application Developer',
+    company: 'Bitlogicx',
+    period: 'Jan 2020 — Dec 2020',
+    location: 'Lahore, Pakistan',
+    description:
+      'Developed Flutter applications and contributed to responsive web interfaces.',
+    highlights: [
+      'Integrated APIs, fixed production issues, and collaborated on cross-platform solutions.',
     ],
   },
 ];
 
 export const education = [
   {
-    degree: 'Bachelor of Science in Computer and Information Sciences',
-    institution: 'University of Sargodha',
-    period: 'Aug 2019 — Dec 2023',
-    location: 'Sargodha, Punjab, Pakistan',
+    degree: 'Bachelor of Software Engineering',
+    institution: 'Superior University Lahore',
+    period: 'Oct 2017 — Oct 2021',
+    location: 'Lahore, Pakistan',
   },
 ];
 
 export const projects = [
   {
     title: 'Mirex Network',
-    category: 'Blockchain · Finance · Omnisoft',
-    company: 'Omnisoft Technologies',
+    type: 'mobile',
+    category: 'Blockchain · Finance',
+    company: 'Omnisoft',
     description:
-      'Next-generation blockchain mobile app on the MIRA-20 network — coin mining, tokenized airdrops, DeFi gaming, and NFT-based education. Featured project at Omnisoft serving 4 million+ users worldwide.',
-    tech: ['React Native', 'Redux', 'REST APIs', 'Android', 'iOS'],
-    image: '/projects/mirex-network.png',
+      'Next-generation blockchain mobile app on the MIRA-20 network — coin mining, tokenized airdrops, DeFi gaming, and NFT-based education. Serving 1M+ users worldwide.',
+    tech: ['Flutter', 'REST APIs', 'Android', 'iOS'],
     playStoreUrl:
       'https://play.google.com/store/apps/details?id=com.lumira_mobile&hl=en',
-    users: '4M+',
+    users: '1M+',
     rating: '4.4',
     featured: true,
-    gradient: 'from-slate-500/20 to-zinc-600/10',
   },
   {
     title: 'Jobulus',
-    category: 'HR · Recruitment · StreamedInc.',
+    type: 'mobile',
+    category: 'HR · Recruitment',
     company: 'StreamedInc.',
     description:
-      'Dual-sided hiring platform with dedicated apps for job seekers and recruiters, plus a web portal. Candidates discover roles, apply with resumes, and track applications. Recruiters post jobs, screen talent, and manage hiring pipelines — available on Android, iOS, and web.',
-    tech: ['React Native', 'Redux', 'REST APIs', 'Android', 'iOS', 'Web'],
-    image: '/projects/jobulus.png',
+      'Dual-sided hiring platform with dedicated apps for job seekers and recruiters, plus a web portal. Candidates discover roles and track applications; recruiters manage hiring pipelines.',
+    tech: ['React Native', 'REST APIs', 'Android', 'iOS', 'Web'],
     platforms: 'Android · iOS · Web',
     featured: true,
     links: [
@@ -159,44 +216,187 @@ export const projects = [
         url: 'https://jobulus.com/',
       },
     ],
-    gradient: 'from-emerald-500/20 to-green-600/10',
   },
   {
     title: 'Lollibond',
-    category: 'Social Network · Lifestyle · StreamedInc.',
+    type: 'mobile',
+    category: 'Social Network · Lifestyle',
     company: 'StreamedInc.',
     description:
-      'All-in-one social platform to connect, engage, and grow. Users create posts, explore jobs, buy courses, and switch between personal, business, and academy profiles — built for job seekers, businesses, and educators on Android and iOS.',
-    tech: ['React Native', 'Redux', 'REST APIs', 'Android', 'iOS'],
-    image: '/projects/lollibond.png',
+      'All-in-one social platform to connect, engage, and grow. Users create posts, explore jobs, buy courses, and switch between personal, business, and academy profiles.',
+    tech: ['React Native', 'REST APIs', 'Android', 'iOS'],
     platforms: 'Android · iOS',
     featured: true,
     playStoreUrl:
       'https://play.google.com/store/apps/details?id=com.pro.lollibond&hl=en',
-    gradient: 'from-rose-500/20 to-blue-600/10',
+  },
+  {
+    title: 'Go and Do',
+    type: 'mobile',
+    category: 'Travel · Social',
+    description:
+      'Travel and local discovery app for creating and sharing trip videos, finding places to visit, and exploring food, entertainment, and outdoor activities nearby.',
+    tech: ['Flutter', 'REST APIs', 'Android', 'iOS'],
+    platforms: 'Android · iOS',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.org.goando',
+  },
+  {
+    title: 'Baccarat Pattern Predictor AI',
+    type: 'mobile',
+    category: 'AI · Productivity',
+    description:
+      'AI-powered pattern analysis tool for tracking and predicting Baccarat outcomes with manual input, real-time suggestions, and offline support.',
+    tech: ['Flutter', 'AI/ML', 'Android', 'iOS'],
+    platforms: 'Android · iOS',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.baccarat.pattern.predictorpro',
+  },
+  {
+    title: 'MIRA VPN',
+    type: 'mobile',
+    category: 'Tools · Security',
+    description:
+      'AI-integrated VPN service with intelligent connection optimization, 50+ protocols per server, unlimited traffic, and cross-platform support.',
+    tech: ['Flutter', 'Android', 'iOS', 'Networking'],
+    platforms: 'Android · iOS',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.mira.vpn.mira_vpn',
+  },
+  {
+    title: 'Elite Holiday Services',
+    type: 'web',
+    category: 'Travel · Visa Agency',
+    description:
+      'UK-based travel and visa agency website for Schengen visa applications, flight bookings, holiday packages, and consultation services.',
+    tech: ['Next.js', 'React', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://eliteholidayservices.co.uk/' }],
+  },
+  {
+    title: 'On the Bay Painting',
+    type: 'web',
+    category: 'Home Services',
+    description:
+      'Professional painting services website showcasing residential and commercial painting solutions with service details and contact forms.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://onthebaypainting.com/' }],
+  },
+  {
+    title: 'Forani',
+    type: 'web',
+    category: 'Business',
+    description:
+      'Business website built with modern frontend practices, responsive design, and optimized performance.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.forani.ca/' }],
+  },
+  {
+    title: 'DKAJA Tax',
+    type: 'web',
+    category: 'Finance · Tax Services',
+    description:
+      'Tax consultancy website offering professional tax preparation, filing, and advisory services for individuals and businesses.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.dkajatax.com/' }],
+  },
+  {
+    title: 'ScopenDis',
+    type: 'web',
+    category: 'Healthcare · Australia',
+    description:
+      'Australian healthcare services platform with information on medical scopes, patient resources, and clinic contact details.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.scopendis.com.au/' }],
+  },
+  {
+    title: 'Forth and Vale',
+    type: 'web',
+    category: 'Business · Scotland',
+    description:
+      'Business website for Forth and Vale with service information, company details, and client engagement features.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.forthandvale.com/' }],
+  },
+  {
+    title: 'Royal Paws Grooming Co.',
+    type: 'web',
+    category: 'Pet Services',
+    description:
+      'Pet grooming business website featuring services, pricing, booking information, and gallery of grooming work.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.royalpawsgroomingco.com/' }],
+  },
+  {
+    title: 'Nostal',
+    type: 'web',
+    category: 'Social · App',
+    description:
+      'Nostalgia-driven social platform web presence with app download links, features overview, and user onboarding.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.nostal.app/' }],
+  },
+  {
+    title: 'Hospitality Rides',
+    type: 'web',
+    category: 'Transport · Non-profit',
+    description:
+      'Non-profit transportation platform connecting hospitality workers with reliable ride services and community support.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.hospitalityrides.org/' }],
+  },
+  {
+    title: 'Housekeeping Pro',
+    type: 'web',
+    category: 'Home Services · Canada',
+    description:
+      'Canadian housekeeping services website with service packages, booking options, and professional cleaning solutions.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://housekeepingpro.ca/' }],
+  },
+  {
+    title: 'Hayat Care Center',
+    type: 'web',
+    category: 'Healthcare · Care Services',
+    description:
+      'Healthcare and care center website providing information on services, facilities, patient care programs, and contact details.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.hayatcarecenter.org/' }],
+  },
+  {
+    title: 'Raiyo Taxi',
+    type: 'web',
+    category: 'Transport · Taxi',
+    description:
+      'Taxi and ride-hailing service website with booking features, fare information, and driver onboarding details.',
+    tech: ['React', 'Next.js', 'Node.js'],
+    links: [{ label: 'Website', url: 'https://www.raiyotaxi.com/' }],
   },
 ];
 
 export const services = [
   {
+    title: 'Full Stack Development',
+    description:
+      'End-to-end web applications with React, Next.js, NestJS, and PostgreSQL — from architecture to deployment.',
+    icon: 'code',
+  },
+  {
     title: 'Mobile App Development',
-    description: 'End-to-end React Native apps from concept to App Store and Play Store launch.',
+    description:
+      'Cross-platform Flutter and React Native apps published to Google Play and the App Store.',
     icon: 'smartphone',
   },
   {
-    title: 'API Integration',
-    description: 'Connect mobile apps with REST APIs, Firebase, and backend services using Axios.',
+    title: 'API & Backend Systems',
+    description:
+      'Scalable REST APIs, microservices, authentication, and third-party integrations built for production.',
     icon: 'refresh',
   },
   {
-    title: 'Performance Optimization',
-    description: 'Improve app speed, responsiveness, and stability across Android and iOS.',
+    title: 'Cloud & DevOps',
+    description:
+      'AWS infrastructure, Docker containers, CI/CD pipelines, and Kubernetes orchestration for reliable deployments.',
     icon: 'zap',
-  },
-  {
-    title: 'Agile Delivery',
-    description: 'Collaborate with design and backend teams to ship features on schedule.',
-    icon: 'lightbulb',
   },
 ];
 

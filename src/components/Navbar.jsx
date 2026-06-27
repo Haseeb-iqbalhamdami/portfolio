@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import { navLinks } from '../data/portfolio';
+import { navLinks, personalInfo } from '../data/portfolio';
+
+const firstName = personalInfo.name.split(' ')[0];
+const logoInitial = firstName.charAt(0);
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,9 +29,9 @@ export default function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="container navbar__inner">
         <a href="#" className="navbar__logo">
-          <span className="navbar__logo-mark">M</span>
+          <span className="navbar__logo-mark">{logoInitial}</span>
           <span className="navbar__logo-text">
-            Mubeen<span className="text-gold">.</span>
+            {firstName}<span className="text-gold">.</span>
           </span>
         </a>
 

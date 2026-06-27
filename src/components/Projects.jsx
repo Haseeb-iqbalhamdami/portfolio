@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Globe, Star, Users } from 'lucide-react';
+import { ExternalLink, Github, Globe, Smartphone, Star, Users } from 'lucide-react';
 import SectionHeading from './SectionHeading';
 import { projects } from '../data/portfolio';
 
@@ -63,8 +63,8 @@ export default function Projects() {
       <div className="container">
         <SectionHeading
           label="Portfolio"
-          title="Featured Projects"
-          subtitle="Production apps shipped for global users — from blockchain fintech to recruitment platforms."
+          title="Projects & Products"
+          subtitle="Production web platforms and mobile apps — from SaaS and client websites to apps with millions of users."
         />
 
         <div className="projects__grid">
@@ -77,8 +77,13 @@ export default function Projects() {
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.55, delay: index * 0.1 }}
             >
-              <div className={`projects__visual projects__visual--${index + 1}`}>
-                {project.image ? (
+              <div className={`projects__visual projects__visual--${(index % 4) + 1}`}>
+                {project.type === 'web' ? (
+                  <div className="projects__web-showcase">
+                    <Globe size={40} />
+                    <span>Live Website</span>
+                  </div>
+                ) : project.image ? (
                   <div className="projects__app-showcase">
                     <img
                       src={project.image}
@@ -99,11 +104,19 @@ export default function Projects() {
                     )}
                   </div>
                 ) : (
-                  <div className="projects__phone">
-                    <div className="projects__phone-notch" />
-                    <div className="projects__phone-screen">
-                      <span className="projects__phone-icon">◆</span>
+                  <div className="projects__app-showcase">
+                    <div className="projects__phone">
+                      <div className="projects__phone-notch" />
+                      <div className="projects__phone-screen">
+                        <Smartphone size={28} />
+                      </div>
                     </div>
+                    {project.platforms && (
+                      <div className="projects__stat-pill">
+                        <Globe size={14} />
+                        {project.platforms}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
