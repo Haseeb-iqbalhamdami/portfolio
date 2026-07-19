@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: 'Haseeb Iqbal',
-  title: 'Full Stack Software Engineer',
+  title: 'Full Stack Software Engineer & QA Expert',
   tagline:
-    'Designing and deploying scalable web and mobile applications, SaaS platforms, and enterprise backend systems with a focus on performance, security, and maintainability.',
+    'Building scalable web and mobile products end to end — with deep expertise in quality engineering, test automation, performance testing, and production monitoring.',
   email: 'Haseeb.iqbalhamdami@gmail.com',
   phone: '+92 322 0012790',
   whatsapp: '+92 309 2685070',
@@ -14,20 +14,20 @@ export const personalInfo = {
 };
 
 export const aboutContent = {
-  heading: 'Building scalable products end to end',
+  heading: 'Full stack delivery with quality at the core',
   subtitle:
-    'Full stack engineer focused on high-performance APIs, cloud-native solutions, and polished user experiences.',
+    'Engineer and QA expert focused on scalable systems, clean code, and production-grade reliability.',
   lead:
-    "I'm Haseeb Iqbal, a Full Stack Software Engineer with 5+ years of experience designing, developing, and deploying production-grade web and mobile applications across fintech, SaaS, and enterprise domains.",
+    "I'm Haseeb Iqbal, a Full Stack Software Engineer and QA Expert with 5+ years of experience shipping web, mobile, and SaaS products — and owning quality from unit tests through load, stress, and production monitoring.",
   paragraphs: [
-    'I build high-performance REST APIs, microservices, and cloud-native solutions using Node.js, NestJS, React, Next.js, and Flutter — with strong expertise in AWS, Docker, Kubernetes, and CI/CD pipelines.',
-    'From Cosmemporium and Omnisoft to early mobile roles at Tech Hunter and Bitlogicx, I have shipped cross-platform apps, SaaS dashboards, and client websites used by millions of users worldwide.',
+    'I build high-performance APIs and apps with React, Next.js, Vue.js, Angular, NestJS, Flask, and Flutter — backed by AWS, Docker, Kubernetes, and CI/CD.',
+    'On the QA side, I design test strategies and cases for unit, integration, performance, load, and stress testing, run code reviews, and use tools like SonarQube, Grafana, Jest, Postman, and Cypress to keep releases stable.',
   ],
   highlights: [
     'Full stack web & mobile development',
-    'REST APIs, microservices & cloud infrastructure',
-    'React, Next.js, NestJS & Flutter',
-    'AWS, Docker, Kubernetes & CI/CD',
+    'Vue.js, Angular, React & Flask',
+    'QA: unit, integration, load & stress testing',
+    'SonarQube, Grafana, code review & test cases',
   ],
 };
 
@@ -40,7 +40,7 @@ export const socialLinks = [
 export const stats = [
   { value: '5+', label: 'Years Experience', icon: 'briefcase' },
   { value: '6', label: 'Companies', icon: 'building' },
-  { value: '18+', label: 'Projects Shipped', icon: 'smartphone' },
+  { value: '25+', label: 'Projects Shipped', icon: 'smartphone' },
   { value: 'BSE', label: 'Software Engineering', icon: 'graduation' },
 ];
 
@@ -48,49 +48,78 @@ export const skills = [
   {
     category: 'Frontend & Mobile',
     items: [
-      'React.js',
-      'Next.js',
-      'TypeScript',
-      'Flutter',
-      'React Native',
-      'Tailwind CSS',
-      'Shadcn UI',
+      { name: 'React.js', icon: 'react' },
+      { name: 'Next.js', icon: 'nextdotjs' },
+      { name: 'Vue.js', icon: 'vuedotjs' },
+      { name: 'Angular', icon: 'angular' },
+      { name: 'TypeScript', icon: 'typescript' },
+      { name: 'Flutter', icon: 'flutter' },
+      { name: 'React Native', icon: 'react' },
+      { name: 'Tailwind CSS', icon: 'tailwindcss' },
     ],
   },
   {
     category: 'Backend & APIs',
     items: [
-      'Node.js',
-      'NestJS',
-      'Express.js',
-      'REST APIs',
-      'GraphQL',
-      'Microservices',
-      'WebSockets',
+      { name: 'Node.js', icon: 'nodedotjs' },
+      { name: 'NestJS', icon: 'nestjs' },
+      { name: 'Express.js', icon: 'express' },
+      { name: 'Flask', icon: 'flask' },
+      { name: 'Python', icon: 'python' },
+      { name: 'REST APIs', icon: 'swagger' },
+      { name: 'SOAP APIs', icon: 'soap' },
+      { name: 'GraphQL', icon: 'graphql' },
+      { name: 'gRPC', icon: 'grpc' },
+      { name: 'WebSockets', icon: 'socketdotio' },
+      { name: 'Microservices', icon: 'kubernetes' },
+      { name: 'Serverless', icon: 'serverless' },
+      { name: 'AWS Lambda', icon: 'awslambda' },
+      { name: 'RabbitMQ', icon: 'rabbitmq' },
+      { name: 'Apache Kafka', icon: 'apachekafka' },
+      { name: 'JWT / OAuth', icon: 'jsonwebtokens' },
     ],
   },
   {
     category: 'Databases & Cloud',
     items: [
-      'PostgreSQL',
-      'MongoDB',
-      'Redis',
-      'Firebase',
-      'AWS',
-      'Lambda',
-      'S3',
+      { name: 'PostgreSQL', icon: 'postgresql' },
+      { name: 'MongoDB', icon: 'mongodb' },
+      { name: 'Redis', icon: 'redis' },
+      { name: 'MySQL', icon: 'mysql' },
+      { name: 'DynamoDB', icon: 'amazondynamodb' },
+      { name: 'Firebase', icon: 'firebase' },
+      { name: 'AWS', icon: 'amazonaws' },
+      { name: 'S3 / CloudFront', icon: 'amazons3' },
+      { name: 'Docker', icon: 'docker' },
+      { name: 'Kubernetes', icon: 'kubernetes' },
+      { name: 'Terraform', icon: 'terraform' },
+      { name: 'Nginx', icon: 'nginx' },
     ],
   },
   {
-    category: 'DevOps & Tools',
+    category: 'QA & Testing',
     items: [
-      'Docker',
-      'Kubernetes',
-      'Terraform',
-      'GitHub Actions',
-      'Jenkins',
-      'Git',
-      'Jest',
+      { name: 'Unit Testing', icon: 'jest' },
+      { name: 'Integration Testing', icon: 'testinglibrary' },
+      { name: 'Performance Testing', icon: 'lighthouse' },
+      { name: 'Load Testing', icon: 'k6' },
+      { name: 'Stress Testing', icon: 'apachejmeter' },
+      { name: 'Test Cases', icon: 'testrail' },
+      { name: 'Code Review', icon: 'github' },
+      { name: 'SonarQube', icon: 'sonarqube' },
+    ],
+  },
+  {
+    category: 'Monitoring & Tools',
+    items: [
+      { name: 'Grafana', icon: 'grafana' },
+      { name: 'Prometheus', icon: 'prometheus' },
+      { name: 'Postman', icon: 'postman' },
+      { name: 'Cypress', icon: 'cypress' },
+      { name: 'Selenium', icon: 'selenium' },
+      { name: 'GitHub Actions', icon: 'githubactions' },
+      { name: 'Jenkins', icon: 'jenkins' },
+      { name: 'Git', icon: 'git' },
     ],
   },
 ];
@@ -328,12 +357,88 @@ export const projects = [
   },
   {
     title: 'Nostal',
-    type: 'web',
-    category: 'Social · App',
+    type: 'mobile',
+    category: 'Social · Rewards',
+    company: 'Omnisoft Technologies',
     description:
-      'Nostalgia-driven social platform web presence with app download links, features overview, and user onboarding.',
+      'Social platform where posts, engagement, and network growth earn real rewards — content creation that finally pays users back.',
+    tech: ['Flutter', 'REST APIs', 'Android', 'iOS'],
+    platforms: 'Android · iOS · Web',
+    links: [
+      {
+        label: 'Google Play',
+        url: 'https://play.google.com/store/apps/details?id=app.nostal',
+      },
+      { label: 'Website', url: 'https://www.nostal.app/' },
+    ],
+  },
+  {
+    title: 'Rishta Mobarak',
+    type: 'mobile',
+    category: 'Matrimony · Social',
+    description:
+      "Pakistan's leading matrimony app for finding meaningful matches — verified profiles, advanced search, chat, and premium memberships for local and overseas Pakistanis.",
+    tech: ['Flutter', 'REST APIs', 'Android', 'iOS'],
+    platforms: 'Android · iOS',
+    playStoreUrl:
+      'https://play.google.com/store/apps/details?id=com.rishta.mobarak',
+  },
+  {
+    title: 'Orbix',
+    type: 'mobile',
+    category: 'Dating · Social',
+    status: 'in-progress',
+    description:
+      'Modern dating app focused on meaningful connections — profiles, matching, chat, and discovery. Currently in late development, near launch.',
+    tech: ['Flutter', 'REST APIs', 'Android', 'iOS'],
+    platforms: 'Android · iOS',
+  },
+  {
+    title: 'International Educational Advisors',
+    type: 'web',
+    category: 'Education · Consulting',
+    description:
+      'Global education consulting platform for university admissions, visa guidance, scholarships, and study destinations including the UK, Germany, and Turkey.',
+    tech: ['Next.js', 'React', 'Tailwind CSS'],
+    links: [
+      { label: 'Website', url: 'https://www.internationaleducationadvisors.com/' },
+    ],
+  },
+  {
+    title: 'CarSpot',
+    type: 'web',
+    category: 'Automotive · Marketplace',
+    description:
+      'Dutch platform connecting car owners with professional detailers — services marketplace, e-shop, and partner onboarding for quality auto care.',
     tech: ['React', 'Next.js', 'Tailwind CSS'],
-    links: [{ label: 'Website', url: 'https://www.nostal.app/' }],
+    links: [{ label: 'Website', url: 'https://carspotgroup.com/' }],
+  },
+  {
+    title: 'Pure Tale',
+    type: 'web',
+    category: 'E-commerce · Beauty',
+    description:
+      'Hair-care e-commerce storefront focused on product storytelling, shopping experience, and brand-led conversion.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://puretale.shop/' }],
+  },
+  {
+    title: 'Insync (ICCE)',
+    type: 'web',
+    category: 'NDIS · Consulting · Australia',
+    description:
+      'Australian NDIS consulting site for provider registration, compliance audits, business planning, and operational growth support.',
+    tech: ['Next.js', 'React', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.icce.com.au/' }],
+  },
+  {
+    title: 'Scope Mobility',
+    type: 'web',
+    category: 'Healthcare · Mobility · Australia',
+    description:
+      'Australian mobility and healthcare services platform supporting equipment, accessibility, and client-facing service information.',
+    tech: ['React', 'Next.js', 'Tailwind CSS'],
+    links: [{ label: 'Website', url: 'https://www.scopemobility.com.au/' }],
   },
   {
     title: 'Hospitality Rides',
@@ -377,8 +482,14 @@ export const services = [
   {
     title: 'Full Stack Development',
     description:
-      'End-to-end web applications with React, Next.js, NestJS, and PostgreSQL — from architecture to deployment.',
+      'End-to-end web apps with React, Vue, Angular, Next.js, NestJS, Flask, and PostgreSQL — from architecture to deploy.',
     icon: 'code',
+  },
+  {
+    title: 'QA & Test Engineering',
+    description:
+      'Unit, integration, performance, load, and stress testing — plus test cases, code reviews, SonarQube, and Grafana.',
+    icon: 'zap',
   },
   {
     title: 'Mobile App Development',
@@ -387,16 +498,10 @@ export const services = [
     icon: 'smartphone',
   },
   {
-    title: 'API & Backend Systems',
-    description:
-      'Scalable REST APIs, microservices, authentication, and third-party integrations built for production.',
-    icon: 'refresh',
-  },
-  {
     title: 'Cloud & DevOps',
     description:
-      'AWS infrastructure, Docker containers, CI/CD pipelines, and Kubernetes orchestration for reliable deployments.',
-    icon: 'zap',
+      'AWS infrastructure, Docker, Kubernetes, CI/CD pipelines, and production monitoring for reliable releases.',
+    icon: 'refresh',
   },
 ];
 

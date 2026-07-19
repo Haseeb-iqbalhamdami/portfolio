@@ -4,6 +4,14 @@ import SectionHeading from './SectionHeading';
 import { projects } from '../data/portfolio';
 
 function ProjectLinks({ project }) {
+  if (project.status === 'in-progress') {
+    return (
+      <div className="projects__links">
+        <span className="projects__link projects__link--muted">Near launch</span>
+      </div>
+    );
+  }
+
   if (project.links?.length) {
     return (
       <div className="projects__links projects__links--wrap">
@@ -64,7 +72,7 @@ export default function Projects() {
         <SectionHeading
           label="Portfolio"
           title="Projects & Products"
-          subtitle="Production web platforms and mobile apps — from SaaS and client websites to apps with millions of users."
+          subtitle="25+ production web platforms and mobile apps — from SaaS and client sites to apps serving millions of users."
         />
 
         <div className="projects__grid">
@@ -124,6 +132,9 @@ export default function Projects() {
               <div className="projects__body">
                 <div className="projects__meta-row">
                   <span className="projects__category">{project.category}</span>
+                  {project.status === 'in-progress' && (
+                    <span className="projects__featured">Near Launch</span>
+                  )}
                   {project.featured && <span className="projects__featured">Featured</span>}
                 </div>
                 <h3 className="projects__title">{project.title}</h3>
